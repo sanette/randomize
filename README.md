@@ -1,7 +1,7 @@
 # randomize
 need a random number?
 
-# 
+-------------------------------------------------------------------------------
 
 _This is a demo app showing basic usage of the Bogue library._
 
@@ -18,6 +18,9 @@ Of course, you can customize the interval of numbers you expect. So
 this is a truly *complete app*!
 
 # Screenshot
+
+![Screenshot](https://github.com/sanette/randomize/blob/master/Screenshot_20190702_131806s.jpg) (large version [here](https://github.com/sanette/randomize/blob/master/Screenshot_20190702_131806.jpg).
+
 
 See the video capture in the [repository](https://github.com/sanette/randomize/blob/master/bogue-randomize-2019-07-01_21.36.03.mkv), or from
 [Youtube](https://youtu.be/b7rBCctJ7Cw).
