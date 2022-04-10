@@ -30,5 +30,5 @@ See the video capture in the [repository](https://github.com/sanette/randomize/b
 
 # Installation
 
-You can try the linux [binary](https://github.com/sanette/randomize/blob/master/randomize). It requires the SDL2 library.
+You can try the linux [binary](randomize_x86_64). It requires the SDL2 library.
 You can also compile it if you have ocaml and the [Bogue](https://github.com/sanette/bogue) package.
