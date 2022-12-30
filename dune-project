@@ -1,5 +1,6 @@
 (lang dune 3.6)
 (name randomize)
+(version 1.0.0)
 (generate_opam_files true)
 (source (github sanette/randomize))
 (maintainers "Vu Ngoc San <san.vu-ngoc@laposte.net>")
