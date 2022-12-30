@@ -3,7 +3,10 @@ need a random number?
 
 -------------------------------------------------------------------------------
 
-_This is a demo app showing basic usage of the Bogue library._
+_This is a demo app showing basic usage of the Bogue library. More
+sophisticated examples are
+[bogue-demo](https://github.com/sanette/bogue-demo) or the
+[snoke](https://github.com/sanette/snoke) game._
 
 Click on the 'randomize' button, and it will give you a random
 number. Very handy if you don't have a dice in your pocket. Or a coin
@@ -31,4 +34,14 @@ See the video capture in the [repository](https://github.com/sanette/randomize/b
 # Installation
 
 You can try the linux [binary](randomize_x86_64). It requires the SDL2 library.
-You can also compile it if you have ocaml and the [Bogue](https://github.com/sanette/bogue) package.
+You can also compile it if you have ocaml and the [Bogue](https://github.com/sanette/bogue) package:
+```
+opam pin https://github.com/sanette/randomize.git
+```
+Then just run `./randomize`
+
+If you want to try without installing, simply clone the git repository, and
+
+```
+dune exec bin/main.exe
+```
