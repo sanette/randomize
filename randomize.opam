@@ -10,8 +10,8 @@ homepage: "https://github.com/sanette/randomize"
 doc: "https://github.com/sanette/randomize"
 bug-reports: "https://github.com/sanette/randomize/issues"
 depends: [
-  "ocaml"
   "dune" {>= "3.6"}
+  "bogue" {>= "20220101"}
   "odoc" {with-doc}
 ]
 build: [

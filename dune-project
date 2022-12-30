@@ -11,6 +11,5 @@
  (name randomize)
  (synopsis "Need a random number?")
  (description "A demo app showing basic usage of the Bogue library.")
- (depends ocaml dune)
- (tags
-  (bogue demo gui random)))
+ (depends (bogue (>= 20220101)))
+ (tags (bogue demo gui random)))
