@@ -35,10 +35,10 @@ let randomize () =
   (* The layout *)
   let minmax =
     L.flat_of_w ~align:Draw.Center
-      ~background:(L.color_bg Draw.(transp grey))
+      ~background:(L.color_bg Draw.(transp RGB.grey))
       [ label_min; ask_min; label_max; ask_max ]
   in
-  let rl = L.resident ~background:(L.color_bg Draw.(transp white)) result in
+  let rl = L.resident ~background:(L.color_bg Draw.(transp RGB.white)) result in
   let bl = L.resident rnd_button in
   let layout = L.tower ~sep:10 ~align:Draw.Center [ minmax; rl; bl ] in
 
